@@ -1,0 +1,85 @@
+/* Estilo general para el contenedor principal */
+.albumes-conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título del componente */
+  .albumes-conteiner h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Contenedor para la lista de álbumes */
+  .albumes-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Cada álbum individual */
+  .album-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Hover en el álbum */
+  .album-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Imagen de cada álbum */
+  .album-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: opacity 0.3s;
+  }
+  
+  /* Título del álbum */
+  .album-item h3 {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  /* Información adicional del álbum */
+  .album-item p {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  /* Resaltar los subtítulos */
+  .album-item strong {
+    color: #333;
+  }
+  
+  /* Responsive design: adaptar en pantallas pequeñas */
+  @media (max-width: 768px) {
+    .albumes-lista {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .album-item {
+      width: 90%;
+    }
+  }
+  

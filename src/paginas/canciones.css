@@ -1,0 +1,54 @@
+/* Estilos generales del contenedor de las canciones */
+.canciones-contenedor {
+  padding: 20px;
+  background-color: #efd7ff;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #3d2c50;
+  margin-bottom: 30px;
+}
+
+/* Estilos para cada álbum */
+.album-canciones {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de cada álbum */
+.album-canciones h3 {
+  font-size: 1.8em;
+  color: #3c2044;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Estilos para la lista de canciones */
+.album-canciones ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo de cada canción */
+.album-canciones li {
+  margin: 10px 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* Estilo de los enlaces de las canciones */
+.album-canciones a {
+  text-decoration: none;
+  color: #615964;
+  transition: color 0.3s ease;
+}
+
+.album-canciones a:hover {
+  color: #f31282;
+}

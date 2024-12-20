@@ -1,0 +1,75 @@
+/* Contenedor del formulario */
+.formulario-contenedor {
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #f5cdff;
+  border: 2px solid #510358;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Título del formulario */
+.formulario-contenedor h2 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Estilo para los grupos de campos */
+.formulario-grupo {
+  margin-bottom: 15px;
+  width: 70%;
+  margin: 20px;
+  padding: 5px;
+}
+
+/* Estilo para las etiquetas de los campos */
+.formulario-grupo label {
+  font-size: 1.1em;
+  color: #34495e;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Estilo de los campos de entrada */
+.formulario-grupo input,
+.formulario-grupo select,
+.formulario-grupo textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  border: 2px solid #a36193;
+  border-radius: 6px;
+  background-color: #f8e6f3;
+  color: rgb(109, 95, 106);
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Estilo de los campos de entrada al hacer hover o focus */
+.formulario-grupo input:focus,
+.formulario-grupo select:focus,
+.formulario-grupo textarea:focus {
+  border-color: #853d7b;
+  background-color: #fff;
+}
+
+/* Estilo para el botón */
+.formulario-grupo button {
+  padding: 12px 20px;
+  font-size: 1.2em;
+  background-color: #450c4b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el ratón sobre el botón */
+.formulario-grupo button:hover {
+  background-color: #a36193;
+}
